@@ -8,7 +8,7 @@ from datetime import datetime
 from together import Together
 from dotenv import load_dotenv
 import sys
-
+  
 # Set up logging to console and file
 logging.basicConfig(
     level=logging.INFO,

@@ -7,7 +7,7 @@ import logging
 import traceback
 from datetime import datetime
 from subprocess import run, PIPE, TimeoutExpired
-
+ 
 # Set up logging
 logging.basicConfig(
     filename='question_processing.log',

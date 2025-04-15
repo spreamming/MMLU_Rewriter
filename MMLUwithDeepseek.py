@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-
+ 
 # Load environment variables
 load_dotenv()
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")

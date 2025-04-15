@@ -8,7 +8,7 @@ import traceback
 from together import Together
 from dotenv import load_dotenv
 import json
-
+ 
 # Set up logging
 logging.basicConfig(
     filename='batch_generation.log',

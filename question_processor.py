@@ -23,7 +23,7 @@ PROCESSING_TIMEOUT = 300  # Overall processing timeout in seconds
 MIN_DELAY_SECONDS = 30  # Reduced wait time (30 seconds)
 MAX_RETRIES = 3  # Maximum number of retry attempts
 BACKOFF_FACTOR = 2  # Exponential backoff factor
-
+  
 # API call function with retry mechanism
 def call_deepseek_api(client, prompt, retry_count=0):
     wait_time = MIN_DELAY_SECONDS * (BACKOFF_FACTOR ** retry_count)
