@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Log files
+*.log
+batch_generation.log
+api_calls.log
+mmlu_rewrite.log
+mmlu_selection.log
+question_processing.log
+fast_process.log
+
+# Response files
+response_raw_*.txt
+responses/
+fast_response_raw.txt
+
+# Backup files
+backup/
+
+# Debug files
+debug_output.txt
+debug_output_log.txt
+
+# Temporary files
+processing_checkpoint.txt 

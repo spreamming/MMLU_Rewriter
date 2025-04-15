@@ -1,0 +1,4 @@
+datasets>=2.12.0
+pandas>=1.5.0
+python-dotenv>=1.0.0
+together>=0.1.5 
